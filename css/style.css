@@ -1,0 +1,138 @@
+/*
+    Developer: Akinbode OLuwatowo
+    Client: Audu Jacob
+*/
+
+/*GENERAL STYLES*/
+body{
+    margin:0;
+    text-rendering: optimizeLegibility;
+    color:#555;
+    font-size:12px;
+    padding:0;
+
+}
+.container{
+    margin-top:20px;
+    
+}
+.container .nav li a{
+    background-color: #5bc0dc;
+    color:#fff;
+}
+.container .tab-content{
+    padding:10px 20px 40px 20px;
+    border: 1px #5bc0dc solid;
+}
+
+
+
+/*DETAILS TAB STYLES*/
+#details span{
+    color:red;
+}
+#details label{
+    margin-top:20px;
+}
+#details .select{
+    width:200px;
+}
+
+#details .input input[type=text],
+#details .input input[type=date],
+#details .input input[type=time]{
+    float:left;
+    width:200px; 
+}
+#details .complaints{
+    margin-top:40px;
+    margin-right:400px !important;
+}
+#details textarea{
+    width:400px;
+    height:100px;
+}
+#details .duration {
+    float:left;
+    margin-top:-44px;
+    margin-left: 40px;
+}
+#details p{
+    float:right;
+    color:red;
+    font-size:80%;
+    margin-right:-180px;
+    margin-top:-30px;
+}
+
+
+/*TASK/ITEMS TAB*/
+#task span{
+    color:red;
+}
+#task .panel .icon{
+    float:left;
+    margin-left:70px;
+    margin-top:-24px;
+    font-size:20px;
+}
+.icon .fa-minus-circle{
+    color:red;
+}
+.icon .fa-plus-circle{
+    color:green;
+}
+
+
+
+/*FOLLOW UP STYLES*/
+#follow span{
+    color:red;
+}
+#follow .panel .assign{
+    margin-left:40px;
+}
+
+#follow .panel .select{
+    width:200px;
+    float:right;
+    margin-right:550px;
+}
+#follow .send{
+    margin-top:20px;
+}
+#follow .send p{
+    margin-left:70px;
+}
+#follow textarea{
+    width:400px;
+    height:50px;
+    margin-left:70px;
+    margin-top:-20px;
+}
+#follow .panel p{
+    color:red;
+}
+
+
+
+/*FILES STYLES*/
+#file .attach-file{
+    margin-bottom:20px;
+}
+#file .panel p{
+    color:red;
+}
+
+
+/*SUBMIT BUTTON*/
+.button{
+    margin-top:20px;
+}
+.button p{
+    float:right;
+    color:red;
+    margin-right:970px;
+    margin-top:7px;
+  
+}

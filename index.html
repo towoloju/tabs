@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Tabs</title>
+</head>
+<body>
+
+    <div class="container">
+        
+            <!-- Navigation tabs -->
+            <ul class="nav nav-tabs" role="tablist">
+
+                <li role="presentation" class="active"><a href="#details" aria-controls="details" role="tab" data-toggle="tab">DETAILS</a></li>
+
+                <li role="presentation"><a href="#task" aria-controls="task" role="tab" data-toggle="tab">TASK/ITEMS</a></li>
+
+                <li role="presentation"><a href="#follow" aria-controls="follow" role="tab" data-toggle="tab">FOLLOW-UP</a></li>
+
+                <li role="presentation"><a href="#file" aria-controls="file" role="tab" data-toggle="tab">FILE</a></li>
+
+                <li role="presentation"><a href="#maintain" aria-controls="maintain" role="tab" data-toggle="tab">Past Maintenance(s)</a></li>
+
+                <li role="presentation"><a href="#history" aria-controls="history" role="tab" data-toggle="tab">History</a></li>
+
+            </ul>
+          
+            <!-- Tab panes -->
+            <div class="tab-content"> <!----Tab contents -->
+                <!--Details tab content-->
+                <div role="tabpanel" class="tab-pane active" id="details">
+
+                 
+                    <label for="" class="">Type<span>*</span></label> <!---Type-->
+                    <div class="select">
+                        <select name="" class="form-control" id="">
+                            <option selected disabled>--Select Type-- </option>
+                            <option value="">1</option>
+                        </select>
+                    </div>
+                
+
+                    
+                    <label for="" class="">Office</label><span>*</span></label> <!---Office-->
+                    <div class="select">
+                        <select name="" class="form-control" id="">
+                            <option selected disabled>--Select-- </option>
+                            <option value="">1</option>
+                        </select>
+                    </div>
+                    
+
+                    <label for="" class="">Client</label> <!---Client, not asterixs-->
+                    <div class="select ">
+                        <select name="" class="form-control " id="">
+                            <option selected disabled>--Select-- </option>
+                            <option value="">1</option>
+                        </select>
+                    </div>
+        
+                
+                
+                    <label for="" class="">Vehicle</label><span>*</span></label> <!---Vehicle-->
+                    <div class="select">
+                        <select name="" class="form-control" id="">
+                            <option selected disabled>--Select-- </option>
+                            <option value="">1</option>
+                        </select>
+                    </div>
+                    
+
+                    <label for="" class="">Milage/Date<span>*</span></label> <!---milage and date-->
+                    <div class="input ">
+                        <input type="text" name="" class="form-control" id="">
+                        <input type="date" name="" class="form-control"  id="">
+                        <input type="time" name="" class="form-control"  id="">
+                    </div>
+
+                    <div class="complaints"> <!---Complaints-->
+                        <label for="" class="">Complaints<span>*</span></label> 
+                        <div class="">
+                            <textarea name="" id="" class="form-control" cols="30" rows="10"></textarea>
+                        </div>
+                    </div>
+                    
+
+                        
+                    <label for="" class="">Driver</label> <!--Driver-->
+                    <div class="select">
+                        <select name="" class="form-control " id="">
+                            <option selected disabled>--Select-- </option>
+                            <option value="">1</option>
+                        </select>
+                    </div>
+
+                        
+                    <div class=""> <!---Checkbox-->
+                        <label> Notify Admin</label>
+                        <input type="checkbox" name="" value="">
+
+                        <label> Insurance</label>
+                        <input type="checkbox" name="" value="">
+
+                    </div>
+
+
+                    <label for="" class="">Workshop</label> <!---Workshop-->
+                    <div class="select">
+                        <select name="" class="form-control" id="">
+                            <option selected disabled>--Select-- </option>
+                            <option value="">1</option>
+                        </select>
+                    </div>
+                    
+
+                
+                    <label for="" class="">Priority</label> <!---Priority-->
+                    <div class="select">
+                        <select name="" class="form-control" id="">
+                            <option selected disabled>Normal</option>
+                            <option value="">High</option>
+                            <option value="">Low</option>
+
+                        </select>
+                    </div>
+
+                    
+                    <label for="" class="">PO/Invoice Number</label> <!---Invoice-->
+                    <div class="select">
+                        <input type="text" name=""  class="form-control" id="">
+                    </div>
+
+
+                    <label for="" class="" >Job Owner</label> <!---Job Owner-->
+                    <div class="select">
+                        <select name="" class="form-control" id="">
+                            <option selected disabled>--Select-- </option>
+                            <option value="">1</option>
+                        </select>
+                    </div>
+
+                    
+                    <label for="" class="">Observation/Remark</label>  <!---Observation-->
+                    <div class="">
+                        <textarea name="" id="" class="form-control" cols="30" rows="10"></textarea>
+                    </div>
+                    
+                        
+                    <div class="date-in">
+                        <label for="" class="">W/S Date in</label> <!---Date-->
+                        <div class="input">
+                            <input type="date" class="form-control" name="" id="">
+                            <input type="time" class="form-control" name="" id="">
+
+                        </div>
+                    </div>
+
+                    <div class="duration">
+                        <label for="" class="">Agreed Duration</label> <!---Agreeded Duration-->
+                        <div class="input">
+                            <input type="text" class="form-control" name="" id="">
+                            <select name="" class="form-control select" id=""> 
+                                <option selected disabled>--Select--</option>
+                                <option>1</option>
+                            </select>
+
+                        </div>
+
+                        <p>*Enter date in and agreed duration</p>
+                    </div>
+                    
+
+                    
+                    <label for="" class="" style="margin-top:30px; margin-right:800px;">Status</label> <!--Status-->
+                    <div class="select">
+                        <select name="" class="form-control" id="">
+                            <option selected disabled>Submitted</option>
+                            <option value="">Pending</option>
+                            
+                        </select>
+                    </div>
+
+                    <div class=""> <!---Approval-->
+                        <label> Request Approval</label>
+                        <input type="checkbox" name="" value="">
+
+                        <label> Approve</label>
+                        <input type="checkbox" name="" value="">
+
+                    </div>
+
+                </div>
+
+                <!--Task / Items tab content-->
+                <div role="tabpanel" class="tab-pane" id="task">
+                    <div class="row">
+                        <div class="col-lg-12">
+
+                            <!---New Tasks-->
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h6 class="panel-title">Task(s)</h6>
+                                    <div class="icon">
+                                        <i class="fa fa-plus-circle"></i>
+                                        <i class="fa fa-minus-circle"></i>
+                                    </div>
+                                </div>
+
+                                <div class="panel-body">
+                                    <div class="table-responsive">
+                                        <table class="table table-stripped table-bordered table-hover">
+                                            <thead>
+                                                <tr>
+                                                    <th><input type="checkbox" name="" id=""></th>
+                                                    <th>#</th>
+                                                    <th>Category<span>*</span></th>
+                                                    <th>Description<span>*</span></th>
+                                                    <th>Comment</th>
+                                                </tr>
+                                            </thead>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!---New Items-->
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h6 class="panel-title">Item(s)</h6>
+                                    <div class="icon">
+                                        <i class="fa fa-plus-circle"></i>
+                                        <i class="fa fa-minus-circle"></i>
+                                    </div>
+                                </div>
+
+                                <div class="panel-body">
+                                    <div class="table-responsive">
+                                        <table class="table table-stripped table-bordered table-hover">
+                                            <thead>
+                                                <tr>
+                                                    <th><input type="checkbox" name="" id=""></th>
+                                                    <th>#</th>
+                                                    <th>Type<span>*</span></th>
+                                                    <th>Description<span>*</span></th>
+                                                    <th>Quantity<span>*</span></th>
+                                                    <th>Unit Price (NGN)</th>
+                                                    <th>Amount (NGN)</th>
+                                                </tr>
+                                            </thead>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <!--Follow up tab content-->
+                <div role="tabpanel" class="tab-pane" id="follow">
+                    <div class="row">
+                        <div class="col-lg-12">
+
+                            <!---New Follow up-->
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h6 class="panel-title">New Follow up</h6>
+                                </div>
+
+                                <div class="panel-body">
+                                    <form action="" method="post">
+
+                                        <div class=""> <!---Checkbox-->
+
+                                            <input type="checkbox" name="" value="">
+                                            <label> Send to Requester</label>
+
+                                            <input type="checkbox" class="assign" name="" value="">
+                                            <label> Assign/Escalate</label>
+
+                                            <select name="" class="form-control select" id="">
+                                                <option value="" selected disabled >--Select--</option>
+                                            </select>                
+                    
+                                        </div>
+
+                                        <div class="send"> <!---Message Recepient-->
+                                            <label for="" class="">Send To</label> 
+                                            <div class="">
+                                                <textarea name="" id="" class="form-control" cols="30" rows="10"></textarea>
+                                                <p>(separate with comma)</p>
+                                            </div>
+                                        </div>
+
+
+                                        <div class=""> <!---Checkbox-->
+                                            <label> Send SMS</label>           
+                                            <input type="checkbox" name="" value="">
+                                        </div>
+                                        
+                                        <div class="send"> <!---Message body-->
+                                            <label for="" class="">Detail<span>*</span></label> 
+                                            <div class="">
+                                                <textarea name="" id="" class="form-control" cols="30" rows="10"></textarea>
+                                                
+                                            </div>
+                                        </div>
+
+                                        <label for="" style="margin-top:20px;">Attach File <i class="fa fa-file"></i></label>
+                                        <input type="file" name="" id="">
+
+                                        <div class="button">
+                                            <button>Save</button>
+                                        </div>
+                                        
+                                    </form>
+                                </div>
+
+                            </div>
+
+                            <!---Added Follow up-->
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h6 class="panel-title">Added Follow Up(s)</h6>
+                                </div>
+
+                                <div class="panel-body">
+                                    <div class="table-responsive">
+                                        <table class="table table-stripped table-bordered table-hover">
+                                              <!--Add table head(th) -->
+                                            <thead>
+                                                <tr>
+                                                    <th></th>
+                                                    <p>No follow ups added</p>
+                                                </tr>
+                                            </thead>
+
+                                             <!--Add table body(td) -->
+                                            <tbody>
+                                                <tr>
+                                                    <td></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!--File tab content-->
+                <div role="tabpanel" class="tab-pane" id="file">
+
+                    <div class="attach-file">
+                        <label for="" style="margin-top:20px;">Attach File <i class="fa fa-file"></i></label>
+                        <input type="file" name="" id="">
+                    </div>
+
+                    <!---Maintenance Request Files-->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h6 class="panel-title">Maintenance Request File(s)</h6>
+                        </div>
+
+                        <!----Add your content here-->
+                        <div class="panel-body">
+                            <p>No files found</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!--Maintenance tab content-->
+                <div role="tabpanel" class="tab-pane" id="maintain">...</div>
+
+                <!--History tab content-->
+                <div role="tabpanel" class="tab-pane" id="history">...</div>
+
+            </div>
+
+
+            <!---Submit button-->
+            <div class="button">
+                <button> Submit </button>
+                <p>* Compulsory Fields</p>
+            </div>
+          
+          
+    </div>
+   
+    
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+
+</html>
